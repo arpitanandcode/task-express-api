@@ -4,7 +4,7 @@ import { ResponseHandler } from "../../utils/responseHandler.js";
 const addTaskController = (req, res, next) => {
   // body-parser
   console.log(req.body);
-  const list = req.body?.todo;
+  const list = req.body?.title;
 
   const obj = { title: list };
 
